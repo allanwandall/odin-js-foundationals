@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    padding: 30px 60px 60px;
+    margin: 40px;
+    background-color:mediumseagreen;    
+    box-shadow: 10px 10px 8px #888888;
+    flex: 0 0 auto;
+    border-radius: 15px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.button-container {
+    display: flex;
+    align-self: stretch;
+    gap: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: none;
+    flex: 1 0 auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.computer-choice {
+    text-align: right;
+}
+
+.match {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.gameover {
+    text-align: center;
+    font-size: 50px;
+}
+
